@@ -10,8 +10,24 @@ Les builds pour Windows et linux  sont disponible [ici ](https://tlecouffe.itch.
 
 ### Installation
 
-- Télécharger le build
-- Lancer le jeu 
+- Télécharger le build correspondant à votre plateforme
+
+##### Windows 
+
+Lancer le .exe
+
+##### Linux
+
+Lancer ces commandes
+
+```shell
+unzip build.zip
+cd build
+chmod +x buildLinux.x86_64
+./buildLinux.x86_64
+```
+
+
 
 ## Contrôles
 
@@ -33,7 +49,7 @@ Cet élément est utilisé pour changer la couleur du niveau. Afin de rendre l'e
 
 Ce sélecteur a été conçu pour permettre un choix optimal du niveau selon l'envie de l'utilisateur. Afin de rester dans notre choix de concevoir une expérience confortable pour l'utilisateur, nous avons mis la possibilité de créer des niveaux allant d'une taille de 3 à 11. 
 
-La taille correspond au nombre de template utilisé pour générer le niveau. Un template étant un objet de 3x3 un niveau de taille 3 correspond à une taille de 9x9.
+La taille correspond au nombre de templates utilisé pour générer le niveau. Un template étant un objet de 3x3 un niveau de taille 3 correspond à une taille de 9x9.
 
 ##### Number of crates
 
@@ -41,7 +57,7 @@ Ce sélecteur permet de sélectionner le nombre de boîtes et d'objectifs prése
 
 #### 3) Optimize button
 
-Ce bouton appelle la fonction post processing de notre générateur. Il exécute certaines tâches permettant de rendre le niveau meilleur. Parmi celle-ci, on peut noter la suppression des zones mortes ainsi que la suppression de certains blocs isolés.  
+Ce bouton appelle la fonction post processing de notre générateur. Il exécute certaines tâches permettant de rendre le niveau meilleur. Parmi celles-ci, on peut noter la suppression des zones mortes ainsi que la suppression de certains blocs isolés.  
 
 #### 4) Generate button 
 

@@ -21,7 +21,7 @@ Les builds pour Windows et linux  sont disponible [ici ](https://tlecouffe.itch.
 
 ### Generator UI
 
-![1605233119604](C:\Users\Thomas\AppData\Roaming\Typora\typora-user-images\1605233119604.png)
+![](C:\Users\Thomas\Documents\Thomas\Games\Formation\IMT Project\Sokoban-Project-Scripts\media\1605233119604.png)
 
 #### 1) Graphical Selector Palet
 

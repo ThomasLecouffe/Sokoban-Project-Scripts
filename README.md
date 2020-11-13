@@ -21,7 +21,7 @@ Les builds pour Windows et linux  sont disponible [ici ](https://tlecouffe.itch.
 
 ### Generator UI
 
-![](.\media\1605233119604.png)
+![](https://github.com/ThomasLecouffe/Sokoban-Project-Scripts/blob/main/media/1605233119604.png)
 
 #### 1) Graphical Selector Palet
 
